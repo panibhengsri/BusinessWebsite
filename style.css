@@ -25,11 +25,10 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-div {
+nav {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
 
 body {
     background-color: black;
@@ -60,6 +59,11 @@ a:hover{
 
 a:active{
     color: #1DB954;
+}
+
+section {
+    background-color: white;
+    color: grey;
 }
 
 aside {
