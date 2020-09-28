@@ -32,12 +32,11 @@ div {
 
 
 body {
-    background-color: grey;
+    background-color: black;
 }
 
 nav {
-    background-color: aliceblue;
-    color: blueviolet;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -49,7 +48,7 @@ p {
 
 article {
     background-color: black;
-    color: white;
+    color:#1DB954;
 }
 
 aside {
