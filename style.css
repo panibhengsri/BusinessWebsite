@@ -98,7 +98,7 @@ aside {
 
 footer {
     position: absolute;
-    bottom: 10;
+    bottom: 10px;
     width: 100%;
     background-color: black;
     color: grey;
