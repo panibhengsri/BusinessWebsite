@@ -1,13 +1,22 @@
+header {
+    background-color: black;
+}
+
 body {
-    background-color: lightblue;
+    background-color: red;
 }
 
 p {
     text-align: center;
-    color: red;
+    color: gray;
 }
 
 h1 {
     text-align: center;
-    color: blue;
+    color: white;
+}
+
+footer {
+    background-color: black
+    color: white;
 }
