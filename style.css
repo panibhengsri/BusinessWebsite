@@ -58,13 +58,13 @@ p {
 }
 
 ol {
-    text-align: center;
+    text-align: left;
     color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 ul {
-    text-align: center;
+    text-align: left;
     color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -86,6 +86,7 @@ a:active{
 }
 
 section {
+    width: 100%;
     background-color: white;
     color: grey;
 }
@@ -96,6 +97,9 @@ aside {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     color: grey;
 }
