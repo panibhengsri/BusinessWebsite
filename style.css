@@ -1,3 +1,20 @@
+.parent{
+    display: flex;
+    height: 300px;
+}
+
+.child{
+    width: 100px; 
+    height: 100px; 
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 header {
     background-color: black;
 }
@@ -9,6 +26,7 @@ body {
 p {
     text-align: center;
     color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 h1 {
