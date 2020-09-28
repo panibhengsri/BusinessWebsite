@@ -40,6 +40,16 @@ footer {
     color: white;
 }
 
+aside {
+    background-color: white;
+    color: black;
+}
+
+article {
+    background-color: black;
+    color: white;
+}
+
 .wrapper {
     display: flex;
     flex-flow: row wrap;
