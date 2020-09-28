@@ -15,18 +15,12 @@
     justify-content: space-around;
 }
 
+div {
+    background-color: red;
+}
+
 header {
     background-color: black;
-}
-
-body {
-    background-color: grey;
-}
-
-p {
-    text-align: center;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 h1 {
@@ -35,13 +29,23 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+body {
+    background-color: grey;
+}
+
 nav {
     background-color: aliceblue;
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-footer {
+p {
+    text-align: center;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+article {
     background-color: black;
     color: white;
 }
@@ -51,41 +55,7 @@ aside {
     color: black;
 }
 
-article {
+footer {
     background-color: black;
     color: white;
-}
-
-.wrapper {
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-.wrapper > * {
-    flex: 1 100%;
-}
-  
-  /* We rely on source order for mobile-first approach
-   * in this case:
-   * 1. header
-   * 2. article
-   * 3. aside 1
-   * 4. footer
-   */
-  
-  /* Medium screens */
-@media all and (min-width: 600px) {
-/* We tell both sidebars to share a row */
-    .aside { flex: 1 auto; }
-}
-  
-  /* Large screens */
- @media all and (min-width: 800px) {
-    /* We invert order of first sidebar and main
-     * And tell the main element to take twice as much width as the other two sidebars 
-     */
-    .main { flex: 2 0px; }
-    .aside { order: 1; }
-    .main    { order: 2; }
-    .footer  { order: 3; }
 }
