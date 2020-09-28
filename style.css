@@ -46,14 +46,25 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-article {
-    background-color: black;
-    color:#1DB954;
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover{
+    color: #1DB954;
+}
+
+a:active{
+    color: #1DB954;
 }
 
 aside {
     background-color: white;
-    color: black;
+    color: grey;
 }
 
 footer {
